@@ -1,0 +1,13 @@
+#Carpeta bin sin ignorar la pripia carpeta
+/bin/*
+!/bin
+
+#Config.json
+config.json
+
+#Modulos de las librerias presentes y futuras de /libs
+/libs/node_modules/**
+
+#.class en /src
+/src/**/*.class
+
